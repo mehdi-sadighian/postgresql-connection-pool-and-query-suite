@@ -45,7 +45,7 @@ int main()
 
 	if (!DB.custom_query(query))
 	{
-		cout << "Cannot insert into Database" << endl;
+		cout << "Cannot update Database" << endl;
 	}
 
 	//select example:
