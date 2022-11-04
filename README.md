@@ -45,7 +45,7 @@ using namespace std;
 
 int main()
 {
-	//cretae object
+	//create object
 	pgsql_connection_pool DB;
 
 	//set config
