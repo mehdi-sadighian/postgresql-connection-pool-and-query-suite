@@ -18,7 +18,7 @@ sudo apt update
 sudo apt-get install build-essential -y
 sudo apt-get install libpq-dev libpqxx-dev -y
 ```
-## Build postgreaql connection pool example:
+## Build postgresql connection pool example:
 
 ```
 git clone https://github.com/mehdi-sadighian/postgresql-connection-pool-and-query-suite.git
