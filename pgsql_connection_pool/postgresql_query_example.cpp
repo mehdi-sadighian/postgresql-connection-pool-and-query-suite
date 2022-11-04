@@ -12,7 +12,7 @@ int main()
 	pgsql_connection_pool DB;
 
 	//set config
-	DB.db_name = "odinpool";
+	DB.db_name = "test_database";
 	DB.db_host = "127.0.0.1";
 	DB.db_port = "5432";
 	DB.db_user = "root";
