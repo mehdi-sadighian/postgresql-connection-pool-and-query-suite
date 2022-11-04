@@ -56,4 +56,4 @@ private:
 
 
 
-};//odinpool_database
+};//pgsql_connection_pool
