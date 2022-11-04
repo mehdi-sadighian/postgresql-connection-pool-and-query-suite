@@ -16,7 +16,7 @@ int main()
 	DB.db_host = "127.0.0.1";
 	DB.db_port = "5432";
 	DB.db_user = "root";
-	DB.db_password = "veronica7351";
+	DB.db_password = "password123";
 	DB.max_connections = 20;  //optional, default 20
 
 	if (!DB.connect()) //connects to DATABASE
