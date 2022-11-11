@@ -261,7 +261,14 @@ postgresql_result pgsql_connection_pool::select(string& query)
 
 				for (int i = 0; i < c.size(); i++)
 				{
-					r1->column[i] = c[i].as<string>();
+					if (!c[i].is_null())
+					{
+						r1->column[i] = c[i].as<string>();
+					}
+					else
+					{
+						r1->column[i] = "";
+					}
 					//cout << "Column[" << i << "]=" << c[i] << endl;
 				}
 				rows.push_back(r1);
