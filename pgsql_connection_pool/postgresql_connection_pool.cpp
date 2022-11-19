@@ -50,7 +50,7 @@ bool pgsql_connection_pool::setup_pgsql_connection_pool(string database_info)
 	{
 		connection C(database_info);
 
-		if (C.is_open())
+		if (C.is_open()) 
 		{
 			can_connect = true;
 
