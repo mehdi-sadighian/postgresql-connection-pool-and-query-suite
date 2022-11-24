@@ -64,7 +64,7 @@ int main()
 			j++;
 		}
 	}
-
+	DB.clear(result); //clear heap
 
 	//create dtabase example:
 	//creating a database named test_db
