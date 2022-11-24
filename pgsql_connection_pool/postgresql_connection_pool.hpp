@@ -38,6 +38,7 @@ public:
 	bool custom_query(string& query);
 	postgresql_result select(string& query);
 	bool create_database(string dbname);
+	void clear(postgresql_result &result);
 
 private:
 	string pgsql_database_info;
