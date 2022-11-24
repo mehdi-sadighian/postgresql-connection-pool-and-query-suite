@@ -298,3 +298,12 @@ postgresql_result pgsql_connection_pool::select(string& query)
 	
 	return rows;
 }//select
+
+void pgsql_connection_pool::clear(postgresql_result &result)
+{
+	for (int i = 0; i < result.size(); i++)
+	{
+		delete result[i];
+	}
+	result.clear();
+}//clear
